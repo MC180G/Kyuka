@@ -1,0 +1,21 @@
+@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap");
+
+#clock {
+    width: 100%;
+    height: 150px;
+    background-color: brown;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: gold;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 75px;
+}
+
+#welcome {
+    background-color: navy;
+    color: olive;
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 150px;
+}
