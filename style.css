@@ -1,21 +1,22 @@
-@import url("https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap");
+@import url('https://fonts.googleapis.com/css?family=Bangers|Cute+Font|Molle:400i|Nothing+You+Could+Do|Vampiro+One|Yellowtail|Zhi+Mang+Xing&display=swap');
 
 #clock {
     width: 100%;
     height: 150px;
-    background-color: brown;
+    background-color: brown;   
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
-    color: gold;
-    font-family: 'Big Shoulders Text', cursive;
+    color: rgb(223, 25, 134);
+    font-family: 'Nothing You Could Do', cursive;
     font-size: 75px;
 }
 
 #welcome {
     background-color: navy;
-    color: olive;
-    font-family: 'Big Shoulders Text', cursive;
+    background-image: "/images/cherryBlossoms.jpg";
+    color: mediumslateblue;
+    font-family: 'Molle', cursive;
     font-size: 150px;
 }
