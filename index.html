@@ -19,31 +19,15 @@
 <body>
     <header>It's TIME to plan on going to JAPAN!!!</header>
 
-    <div id="clock" class="">4:20pm</div>
     <div id='welcome' class="jumbotron">
         <h1 class="text-center">The COLSONs are GOING to JAPAN!!!</h1>
         <h3 class="text-center">Omedetou!! Konnichi wa gokiken ikaga desu ka?</h3>
     </div>
+    <div id="clock" class="">4:20pm<script src="clock.js"></script></div>
+    <div id="launch" class="">44000 hours<script src="countdown.js"></script></div>
 
-    <script>
-        const clock = document.getElementById('clock');
-        setInterval(() => {
-            const now = moment();
-            const clockFace = now.format('LLLL');
-            clock.textContent = clockFace
-        }, 1000);
-
-        const launch = document.getElementById('launch');
-        setInterval(() => {
-            const now = moment();
-            const clockFace = now.format('h:mm');
-            launch.textContent = clockFace
-        }, 1000);
-
-    </script>
-
-    <script src="index.js"></script>
-
+    <div id="itenerary"></div>
+    <div id="ryoko"></div>
 </body>
 
 </html>

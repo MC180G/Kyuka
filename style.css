@@ -20,3 +20,24 @@
     font-family: 'Molle', cursive;
     font-size: 150px;
 }
+
+#countdown {
+    width: 100%;
+    height: 150px;
+    background-color: brown;   
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(223, 25, 134);
+    font-family: 'Nothing You Could Do', cursive;
+    font-size: 75px;
+}
+
+#itenerary {
+
+}
+
+#ryoko {
+    
+}
