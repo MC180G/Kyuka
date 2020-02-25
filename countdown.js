@@ -1,11 +1,9 @@
-const launchTime = new Date("2025-03-17T06:00").getTime();
-const currentTime = new Date().getTime()
+const launch = document.getElementById('launch');
 
-const diffTime = launchTime - currentTime;
-const duration = moment.duration(diffTime, 'hours');
-const interval = 1000;
+var __startTime = moment().format();
+var __endTime = moment("2025-03-17T06:00").format();
 
-setInterval(function() {
-    duration = moment.duration(duration - interval, 'hours')
-    console.log(duration.hours())
-}, interval);
+var __duration = moment.duration(moment(__endTime).diff(__startTime));
+var __hours = __duration.asHours();
+console.log(__hours);
+launch.textContent = __hours;

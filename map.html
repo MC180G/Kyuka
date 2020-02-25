@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Basic Mappa Tutorial</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.5.16/p5.min.js" type="text/javascript"></script>
+  <script src="https://unpkg.com/mappa-mundi/dist/mappa.min.js" type="text/javascript"></script>
+</head>
+
+<body>
+  <script>
+  // Create a variable to hold our map
+let myMap;
+// Create a variable to hold our canvas
+let canvas;
+// Create a new Mappa instance using Leaflet.
+const mappa = new Mappa('Leaflet');
+
+// p5.js setup
+function setup(){
+  // Create a canvas 640x640
+  canvas = createCanvas(640,640); 
+  // Add a grey background
+  background(100);
+
+  // Create a tile map with lat 0, lng 0, zoom 4
+  myMap = mappa.tileMap(0,0,4); 
+  // Overlay the canvas over the tile map
+  myMap.overlay(canvas);
+  //https://mappa.js.org/docs/simple-map.html
+}
+
+// p5.js draw
+function draw(){
+
+}
+  </script>
+</body>
+
+</html>

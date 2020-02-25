@@ -3,35 +3,34 @@
 #clock {
     width: 100%;
     height: 150px;
-    background-color: brown;   
+   
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgb(223, 25, 134);
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 75px;
+    font-size: 40px;
 }
 
 #welcome {
-    background-color: navy;
-    background-image: "/images/cherryBlossoms.jpg";
+
     color: mediumslateblue;
     font-family: 'Molle', cursive;
     font-size: 150px;
 }
 
-#countdown {
+#launch {
     width: 100%;
     height: 150px;
-    background-color: brown;   
+ 
     border-radius: 5px;
     display: flex;
     align-items: center;
     justify-content: center;
     color: rgb(223, 25, 134);
     font-family: 'Nothing You Could Do', cursive;
-    font-size: 75px;
+    font-size: 50px;
 }
 
 #itenerary {
@@ -40,4 +39,8 @@
 
 #ryoko {
     
+}
+
+#body {
+    background-color: red;
 }
