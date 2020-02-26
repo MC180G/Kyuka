@@ -3,4 +3,4 @@ setInterval(() => {
     const now = moment();
     const clockFace = now.format('LLLL');
     clock.textContent = clockFace
-}, 1000);
+}, 60000);

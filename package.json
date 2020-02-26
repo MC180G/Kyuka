@@ -1,0 +1,24 @@
+{
+  "name": "kyuka",
+  "version": "1.0.0",
+  "description": "Travel ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MC180G/Kyuka.git"
+  },
+  "author": "devvo matto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MC180G/Kyuka/issues"
+  },
+  "homepage": "https://github.com/MC180G/Kyuka#readme",
+  "dependencies": {
+    "mappa": "^0.4.0",
+    "react-dnd": "^10.0.2",
+    "react-dnd-html5-backend": "^10.0.2"
+  }
+}

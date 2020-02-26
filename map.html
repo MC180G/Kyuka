@@ -21,13 +21,15 @@ function setup(){
   // Create a canvas 640x640
   canvas = createCanvas(640,640); 
   // Add a grey background
-  background(100);
+  // background(100);
 
   // Create a tile map with lat 0, lng 0, zoom 4
   myMap = mappa.tileMap(0,0,4); 
   // Overlay the canvas over the tile map
   myMap.overlay(canvas);
-  //https://mappa.js.org/docs/simple-map.html
+
+
+
 }
 
 // p5.js draw
@@ -38,3 +40,5 @@ function draw(){
 </body>
 
 </html>
+
+<!-- //https://mappa.js.org/docs/simple-map.html -->
