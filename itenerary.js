@@ -2,6 +2,7 @@ import React from 'react'
 import { useDrag } from 'react-dnd'
 import { ItemTypes } from './Constants'
 
+const itenerary = document.getElementById('itenerary');
 /**
  * Your Component
  */

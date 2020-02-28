@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Bootstrap CDN-->
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,50 +12,69 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- MomentJS -->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-    <script src="https://fonts.googleapis.com/css?family=Bangers|Cute+Font|Molle:400i|Nothing+You+Could+Do|Vampiro+One|Yellowtail|Zhi+Mang+Xing&display=swap">
-    </script>
+    <script
+        src="https://fonts.googleapis.com/css?family=Bangers|Cute+Font|Molle:400i|Nothing+You+Could+Do|Vampiro+One|Yellowtail|Zhi+Mang+Xing&display=swap">
+        </script>
 
-    <link rel="stylesheet" href="style.css">
     <title>Kyuka</title>
 </head>
 
 <body>
-    
+
     <div id='welcome' class="jumbotron text-center">
 
-    <div id="clock" class=""><h1>4:20pm</h1>
-        <script src="clock.js"></script>
-    </div>
+        <!-- The clock function overrides the h1 function. -->
+        <div id="clock" class="">
+            <h1>4:20pm</h1>
+            <script src="clock.js"></script>
+        </div>
 
         <h2>Omedetou!! Konnichi wa gokiken ikaga desu ka?</h2>
-        <h3>We are GOING to JAPAN!!!<br>in</h3>
+        <h2>We are GOING to JAPAN!!!<br>in</h2>
 
-        <div id="launch" class=""><h3>44000 hours</h3>
-            <script src="countdown.js"></script><h3> hours!!</h3>
+        <div id="launch" class="">
+            <!-- The countdown function overrides the h2 function. -->
+            <h2>44000 hours</h2>
+            <script src="countdown.js"></script>
+            <br>
+            <h2> hours!!</h2>
         </div>
     </div>
 
     <div class="container">
         <div class="row">
             <div class="col-sm-3">
+                <div id="ryoko"></div>
                 <h3>Festivals</h3>
                 <p>Lorem ipsum dolor..</p>
+                <script src="images/cherryBlossoms.jpg"></script>
             </div>
- <div class="col-sm-3">
-                    <div id="ryoko"></div>
-                    <h3>Itenerary</h3>
-                    <p>Lorem ipsum dolor..</p>
-                </div>
-            <div class="col-sm-6">
+            <div class="col-sm-3">
                 <div id="itenerary"></div>
-                <h3>Where do you want to go??</h3>
-                <p>Click to see what is where.</p>
+                <h3>Itenerary</h3>
+                <p>Lorem ipsum dolor..</p>
+                <form>
+                    <div class="form-group">
+                        <label for="place">Where do you want to go?</label>
+                        <input type="input" class="form-control" id="place">
+                    </div>
+                    <div class="form-group">
+                        <label for="event">What do you want to see?</label>
+                        <input type="input" class="form-control" id="event">
+                    </div>
+                    <h2>If you answer both, then why ask me?</h2>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
+            </div>
+            <div class="col-sm-6">
                 <div id="maptive">
+                    <h3>Where do you want to go??</h3>
+                    <p>Click to see what is where.</p>
                     <iframe src="https://fortress.maptive.com/ver4/5a5158e847816325f158bc69c0b52b4f" frameborder="0"
                         width="500" height="700" allow="geolocation"></iframe>
                 </div>
 
-               
+
             </div>
         </div>
     </div>
