@@ -4,39 +4,59 @@
 <head>
     <meta charset="UTF-8">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="style.css">
-
     <!-- Bootstrap CDN-->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- MomentJS -->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <script src="https://fonts.googleapis.com/css?family=Bangers|Cute+Font|Molle:400i|Nothing+You+Could+Do|Vampiro+One|Yellowtail|Zhi+Mang+Xing&display=swap">
+    </script>
 
+    <link rel="stylesheet" href="style.css">
     <title>Kyuka</title>
 </head>
 
 <body>
+    
+    <div id='welcome' class="jumbotron text-center">
 
-    <div id="clock" class="">4:20pm
+    <div id="clock" class=""><h1>4:20pm</h1>
         <script src="clock.js"></script>
     </div>
 
-    <div id='welcome' class="jumbotron">
-        <h1 class="text-center">Omedetou!! Konnichi wa gokiken ikaga desu ka?</h1>
-        <h3 class="text-center">We are GOING to JAPAN!!!<br>in</h3>
+        <h2>Omedetou!! Konnichi wa gokiken ikaga desu ka?</h2>
+        <h3>We are GOING to JAPAN!!!<br>in</h3>
+
+        <div id="launch" class=""><h3>44000 hours</h3>
+            <script src="countdown.js"></script><h3> hours!!</h3>
+        </div>
     </div>
 
-    <div id="launch" class="">44000 hours
-        <script src="countdown.js"></script> hours!!
-    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3">
+                <h3>Column 2</h3>
+                <p>Lorem ipsum dolor..</p>
+            </div>
+ <div class="col-sm-3">
+                    <div id="ryoko"></div>
+                    <h3>Column 3</h3>
+                    <p>Lorem ipsum dolor..</p>
+                </div>
+            <div class="col-sm-6">
+                <div id="itenerary"></div>
+                <h3>Where do you want to go??</h3>
+                <p>Click to see what is where.</p>
+                <div id="maptive">
+                    <iframe src="https://fortress.maptive.com/ver4/5a5158e847816325f158bc69c0b52b4f" frameborder="0"
+                        width="500" height="700" allow="geolocation"></iframe>
+                </div>
 
-    <div id="itenerary" style="column-count: 4;"></div>
-    <div id="ryoko" style="column-count: 4;"></div>
-
-    <div id="mappa" style="column-count: 4;">
-        <iframe src="https://fortress.maptive.com/ver4/5a5158e847816325f158bc69c0b52b4f" frameborder="0" width="700"
-            height="500" allow="geolocation"></iframe>
+               
+            </div>
+        </div>
     </div>
 </body>
 
