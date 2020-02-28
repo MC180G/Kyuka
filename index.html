@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 
-       <!-- MomentJS -->
+    <!-- MomentJS -->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
 
     <title>Kyuka</title>
@@ -18,18 +18,26 @@
 
 <body>
 
-    <div id="clock" class="">4:20pm<script src="clock.js"></script></div>
+    <div id="clock" class="">4:20pm
+        <script src="clock.js"></script>
+    </div>
 
     <div id='welcome' class="jumbotron">
         <h1 class="text-center">Omedetou!! Konnichi wa gokiken ikaga desu ka?</h1>
         <h3 class="text-center">We are GOING to JAPAN!!!</h3>
     </div>
 
-    <div id="launch" class="">44000 hours<script src="countdown.js"></script></div>
+    <div id="launch" class="">44000 hours
+        <script src="countdown.js"></script>
+    </div>
 
     <div id="itenerary" style="column-count: 4;"></div>
     <div id="ryoko" style="column-count: 4;"></div>
-    <div id="mappa" style="column-count: 4;"></div>
+    
+    <div id="mappa" style="column-count: 4;">
+        <iframe src="https://fortress.maptive.com/ver4/5a5158e847816325f158bc69c0b52b4f" frameborder="0" width="700"
+            height="500" allow="geolocation"></iframe>
+    </div>
 </body>
 
 </html>
