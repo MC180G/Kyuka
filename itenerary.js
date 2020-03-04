@@ -1,3 +1,7 @@
+// import React from 'react'
+// import { useDrag } from 'react-dnd'
+// import { ItemTypes } from './Constants'
+
 // Create a "close" button and append it to each list item
 var myNodelist = document.getElementsByTagName("LI");
 var i;
@@ -53,3 +57,17 @@ function newElement() {
     }
   }
 }
+
+// export default function Card({ isDragging, text }) {
+//     const [{ opacity }, dragRef] = useDrag({
+//       item: { type: ItemTypes.CARD, text },
+//       collect: monitor => ({
+//         opacity: monitor.isDragging() ? 0.5 : 1,
+//       }),
+//     })
+//     return (
+//       <div ref={dragRef} style={{ opacity }}>
+//         {text}
+//       </div>
+//     )
+//   }
