@@ -28,10 +28,10 @@
             <h1>4:20pm</h1>
             <script src="clock.js"></script>
         </div>
-
-        <h2>Omedetou!! Konnichi wa gokiken ikaga desu ka?</h2>
-        <h2>We leave for JAPAN in </h2>
-
+        <div id="destnation">
+            <h2>Omedetou!! Konnichi wa gokiken ikaga desu ka?</h2>
+            <h2>We leave for</h2>JAPAN<h2> in </h2>
+        </div>
         <div id="launch" class="">
             <h2>44000 hours</h2>
             <script src="countdown.js"></script>
@@ -62,17 +62,16 @@
             </div>
             <div class="col-sm-3">
                 <div id="yotei"></div>
-                <h3>Festivals</h3>
+                <h3>Translations</h3>
                 <form>
                     <div class="form-group">
-                        <label for="place">Where do you want to go?</label>
-                        <input type="input" class="form-control" id="place">
+                        <label for="english">What do you want to say?</label>
+                        <input type="input" class="form-control" id="english">
                     </div>
                     <div class="form-group">
-                        <label for="event">What do you want to see?</label>
-                        <input type="input" class="form-control" id="event">
+                        <label for="translation">So then you say...</label>
+                        <output name="translation" for="">
                     </div>
-                    <p>If you answer both, then why ask me?</p>
                     <button type="submit" class="btn btn-default">Submit</button>
                 </form>
             </div>
