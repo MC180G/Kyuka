@@ -42,52 +42,40 @@
         </div>
     </div>
 
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3">
-                <div id="itenerary" class="header" style src="itenerary.css">
-                    <h3>Itenerary</h3>
-                    <input type="text" id="myInput" placeholder="Play...">
-                    <span onclick="newElement()" class="addBtn">
-                        <button type="submit" class="addBtn">Add</button>
-                        <script src="itenerary.js"></script>
-                    </span>
-                    <ul id="myUL">
-                        <li>Hike</li>
-                        <li class="checked">Land Safely</li>
-                        <li>Visit Base</li>
-                        <li>Buy sushi</li>
-                        <li>Ride Bullet Train</li>
-                        <li>Camp</li>
-                    </ul>
+    <div class="row">
+        <div class="col-sm-6">
+            <div id="itenerary" class="header">
+                <h3>Itenerary</h3>
+                <div class="container">
 
+                    <script src="TodoList.js"></script>
                 </div>
             </div>
-            <div class="col-sm-3">
-                <div id="yotei">
-                    <h3>Translations</h3>
-                    <form>
-                        <div class="form-group">
-                            <label for="english">What do you want to say?</label>
-                            <input type="input" class="form-control" id="english">
-                        </div>
-                        <div class="form-group">
-                            <label for="translation">So then you say...</label>
-                            <output name="translation" for="">
-                        </div>
-                        <button type="submit" class="btn btn-default">Submit</button>
-                    </form>
-                </div>
+        </div>
+        <div class="col-sm-6">
+            <div id="yotei">
+                <h3>Translations</h3>
+                <form>
+                    <div class="form-group">
+                        <label for="english">What do you want to say?</label>
+                        <input type="input" class="form-control" id="english">
+                    </div>
+                    <div class="form-group">
+                        <label for="translation">So then you say...</label>
+                        <output name="translation" class="form-control" for="">
+                    </div>
+                    <button type="submit" class="btn btn-default">Submit</button>
+                </form>
             </div>
-            <div class="col-sm-6">
+        </div>
+        <!-- <div class="col-sm-6">
                 <div id="maptive">
                     <h3>Where do you want to go??</h3>
                     <p>Click to see what is where.</p>
                     <iframe src="https://fortress.maptive.com/ver4/5a5158e847816325f158bc69c0b52b4f" frameborder="1"
                         width="500" height="700" allow="geolocation"></iframe>
                 </div>
-            </div>
-        </div>
+            </div> -->
     </div>
 </body>
 

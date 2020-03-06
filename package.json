@@ -18,8 +18,12 @@
   "homepage": "https://github.com/MC180G/Kyuka#readme",
   "dependencies": {
     "mappa": "^0.4.0",
+    "mysql2": "^2.1.0",
+    "react": "^16.13.0",
     "react-dnd": "^10.0.2",
     "react-dnd-html5-backend": "^10.0.2",
-    "react-dom": "^16.13.0"
+    "react-dom": "^16.13.0",
+    "react-translated": "^2.5.0",
+    "sequelize": "^5.21.5"
   }
 }

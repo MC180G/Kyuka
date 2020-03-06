@@ -17,34 +17,24 @@
 
     color: mediumslateblue;
     font-family: 'Molle', cursive;
-    font-size: 150px;
-}
-
-/* #launch {
-    width: 100%;
-    height: 150px;
- 
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(223, 25, 134);
-    font-family: 'Vampiro One', cursive;
     font-size: 50px;
-} */
+}
 
 #itenerary {
 
-    background-color: rosybrown;
+        padding: 50px;
+        background-color: #66CCFF;
+        font-family: sans-serif;
+      }
+      .container {
+        display: flex;
+        justify-content: center;
+      }
 
-}
+
 
 #yotei {
 
     background-color: slateblue;
     
-}
-
-#body {
-    ;
 }
