@@ -23,7 +23,7 @@ body {
 
 #greeting {
     color: mediumslateblue;
-    font-family: 'Molle', cursive;
+    font-family: 'Molle', cursive, solid;
     font-size: 50px;
     opacity: 1.0;
 }
