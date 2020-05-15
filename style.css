@@ -19,6 +19,9 @@ body {
     background-image: url("images/cherryBlossoms.jpg");
     background-size: cover;
     opacity: 0.5;
+}
+
+#greeting {
     color: mediumslateblue;
     font-family: 'Molle', cursive;
     font-size: 50px;
