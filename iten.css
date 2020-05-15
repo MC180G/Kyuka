@@ -1,36 +1,15 @@
-@import url('https://fonts.googleapis.com/css?family=Bangers|Cute+Font|Molle:400i|Nothing+You+Could+Do|Vampiro+One|Yellowtail|Zhi+Mang+Xing&display=swap');
-body {
-    background-color: rgb(60, 192, 60);
+/* Include the padding and border in an element's total width and height */
+
+* {
+    box-sizing: border-box;
 }
 
-#clock {
-    width: 100%;
-    height: 150px;
-    border-radius: 5px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(247, 181, 217);
-    font-family: 'Nothing You Could Do', cursive;
-    font-size: 40px;
-}
 
-#welcome {
-    background-image: url("images/cherryBlossoms.jpg");
-    background-size: cover;
-    color: mediumslateblue;
-    font-family: 'Molle', cursive;
-    font-size: 50px;
-}
+/* Remove margins and padding from the list */
 
-#itenerary {
-    padding: 50px;
-    background-color: #66CCFF;
-    font-family: sans-serif;
-}
-
-#yotei {
-    background-color: slateblue;
+ul {
+    margin: 0;
+    padding: 0;
 }
 
 
@@ -108,8 +87,9 @@ ul li.checked::before {
 /* Style the header */
 
 .header {
+    background-color: #f44336;
     padding: 30px 40px;
-    color: black;
+    color: white;
     text-align: center;
 }
 
@@ -125,7 +105,7 @@ ul li.checked::before {
 
 /* Style the input */
 
-#myInput {
+input {
     margin: 0;
     border: none;
     border-radius: 0;

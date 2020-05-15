@@ -12,9 +12,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     <!-- MomentJS -->
     <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
-    <script
-        src="https://fonts.googleapis.com/css?family=Bangers|Cute+Font|Molle:400i|Nothing+You+Could+Do|Vampiro+One|Yellowtail|Zhi+Mang+Xing&display=swap">
-        </script>
+    <script src="https://fonts.googleapis.com/css?family=Bangers|Cute+Font|Molle:400i|Nothing+You+Could+Do|Vampiro+One|Yellowtail|Zhi+Mang+Xing&display=swap">
+    </script>
 
     <title>Kyuka</title>
 </head>
@@ -33,25 +32,36 @@
             <div id="destination">
                 <h2>JAPAN</h2>
                 <script src="userSurvey.js"></script>
-            </div> in
+            </div>
+            <h2>on March 17, 2025 and that's only</h2>
             <div id="launch" class="">
                 <h2>44000</h2>
                 <script src="countdown.js"></script>
             </div>
-            <h2> hours!!!</h2>
+            <h2> hours away!!!</h2>
         </div>
     </div>
 
     <div class="row">
+
         <div class="col-sm-6">
             <div id="itenerary" class="header">
                 <h3>Itenerary</h3>
-                <div class="container">
-
-                    <script src="TodoList.js"></script>
-                </div>
+                <input type="text" id="myInput" placeholder="I want to...">
+                <span onclick="newElement()" class="addBtn">Add</span>
             </div>
+
+            <ul id="myUL">
+                <li>Eat Cherries</li>
+                <li class="checked">Have Fun</li>
+                <li>Camp</li>
+                <li>Bicycle</li>
+                <li>Catch an Eel</li>
+                <li>Go to Festival</li>
+            </ul>
+            <script src="iten.js"></script>
         </div>
+
         <div class="col-sm-6">
             <div id="yotei">
                 <h3>Translations</h3>
@@ -68,6 +78,7 @@
                 </form>
             </div>
         </div>
+    </div>
         <!-- <div class="col-sm-6">
                 <div id="maptive">
                     <h3>Where do you want to go??</h3>
